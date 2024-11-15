@@ -58,12 +58,12 @@ Dikarenakan adanya anomali pada insert data yaitu pada bagian program studi, apa
 
 
 **Tabel Mahasiswa**
-| Nim | Nama |
-| - | - |
-| 1001 | Roni |
-| 1002 | Rino |
-| 1003 | Indah|
-| 1004 | Rian |
+| Nim | Nama |No Hp| Alamat |
+| - | - |-|-|
+| 1001 | Roni |0823|Palembang|
+| 1002 | Rino |0821|Kayu Agung|
+| 1003 | Indah|0822|Tanjung Enim|
+| 1004 | Rian |0891|Muara Dua|
 
 ---
 **Tabel Mata Kuliah**
