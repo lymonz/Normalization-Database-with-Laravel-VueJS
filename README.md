@@ -14,72 +14,13 @@ Dalam proses normalisasi data ada beberapa tahapan yaitu 1NF, 2NF dan 3NF.
 Ini merupakan tabel yang menyimpan penilaian data mahasiswa dan matakuliah yang diambil. Ada duplikasi data pada tabel dibawah ini, untuk melakukan perubahan data dilakukan pada banyak baris, banyak data yang disimpan berulang kali, namun data ini sudah masuk ke dalam bentuk **1NF** karena setiap kolom memiliki nilai tunggal untuk setiap barisnya.
 
 ## 1NF
-<table>
-  <thead>
-    <tr>
-      <th>Nim</th>
-      <th>Nama</th>
-      <th>Program Studi</th>
-      <th>Jurusan</th>
-      <th>Kode Matkul</th>
-      <th>Mata Kuliah</th>
-      <th>SKS</th>
-      <th>Nilai</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1001</td>
-      <td>Roni</td>
-      <td>Teknik Komputer</td>
-      <td>Sistem Komputer</td>
-      <td>K-001</td>
-      <td>Pemrograman Web</td>
-      <td>3</td>
-      <td>B</td>
-    </tr>
-    <tr>
-      <td>1002</td>
-      <td>Rino</td>
-      <td>Teknik Informatika</td>
-      <td>Teknik Informatika</td>
-      <td>K-002</td>
-      <td>Arsitektur Data</td>
-      <td>2</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>1001</td>
-      <td>Roni</td>
-      <td>Teknik Komputer</td>
-      <td>Sistem Komputer</td>
-      <td>K-003</td>
-      <td>Komputasi Bergerak</td>
-      <td>4</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>1003</td>
-      <td>Indah</td>
-      <td>Komputerisasi Akuntansi</td>
-      <td>Sistem Informasi</td>
-      <td>K-004</td>
-      <td>Basis Data</td>
-      <td>3</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>1004</td>
-      <td>Rian</td>
-      <td>Teknik Komputer</td>
-      <td>Sistem Komputer</td>
-      <td>K-001</td>
-      <td>Pemrograman Web</td>
-      <td>3</td>
-      <td>A</td>
-    </tr>
-  </tbody>
-</table>
+|Nim|Nama|Program Studi|Jurusan|Kode Matkul|Mata Kuliah|SKS|Nilai|
+|-|-|-|-|-|-|-|-|
+|1001|Roni|Teknik Komputer|Sistem Komputer|K-001|Pemrograman Web|3|B|
+|1002|Rino|Teknik Informatika|Teknik Informatika|K-002|Arsitektur Data|2|A|
+|1001|Roni|Teknik Komputer|Sistem Komputer|K-003|Komputasi Bergerak|4|A|
+|1003|Indah|Komputerisasi Akuntansi|Sistem Informasi|K-004|Basis Data|3|A|
+|1004|Rian|Teknik Komputer|Sistem Komputer|K-001|Pemrograman Web|3|A|
 
 ## 2NF
 Selanjutnya memisahkan data yang memiliki ketergantungan parsial dimana atribut non-primer bergantung pada bagian dari primary key. pada konteks ini adalah kolom Jurusan, Mata Kuliah, SKS.
