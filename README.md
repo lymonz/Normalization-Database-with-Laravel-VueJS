@@ -91,3 +91,8 @@ Dikarenakan adanya anomali pada insert data yaitu pada bagian program studi, apa
 |1003|K-004|A|
 |1004|K-001|A|
 
+---
+
+## Desain Database
+![Untitled Diagram](https://github.com/user-attachments/assets/44e5aed6-d18e-4efc-8ba7-30d48759e70d)
+
