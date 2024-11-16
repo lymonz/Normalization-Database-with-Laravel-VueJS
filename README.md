@@ -94,5 +94,6 @@ Dikarenakan adanya anomali pada insert data yaitu pada bagian program studi, apa
 ---
 
 ## Desain Database
-![Untitled Diagram](https://github.com/user-attachments/assets/44e5aed6-d18e-4efc-8ba7-30d48759e70d)
+![Untitled Diagram](https://github.com/user-attachments/assets/acc41ec2-dc8e-4722-9a59-c49737ee0221)
+
 
