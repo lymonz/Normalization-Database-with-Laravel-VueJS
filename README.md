@@ -58,42 +58,43 @@ Dikarenakan adanya anomali pada insert data yaitu pada bagian program studi, apa
 
 
 **Tabel Mahasiswa**
-| Nim | Nama |Program Studi|No Hp| Alamat |
-| - | - |-|-|-|
-| 1001 | Roni |Teknik Komputer|0823|Palembang|
-| 1002 | Rino |Teknik Informatika|0821|Kayu Agung|
-| 1003 | Indah|0822|Komputerisasi Akuntansi|Prabumulih|
-| 1004 | Rian |0891|Teknik Komputer|Muara Dua|
+|id| Nim | Nama |Program Studi|No Hp| Alamat |
+|-| - | - |-|-|-|
+|1| 1001 | Roni |Teknik Komputer|0823|Palembang|
+|2| 1002 | Rino |Teknik Informatika|0821|Kayu Agung|
+|3| 1003 | Indah|0822|Komputerisasi Akuntansi|Prabumulih|
+|4| 1004 | Rian |0891|Teknik Komputer|Muara Dua|
 
 ---
 **Tabel Mata Kuliah**
-|Kode Matkul|Mata Kuliah|SKS|
-|-|-|-|
-|K-001|Pemrograman Web|3|
-|K-002|Arsitektur Data |2|
-|K-003|Komputasi Bergerak|4|
-|K-004|Basis Data|3|
+|id|Kode Matkul|Mata Kuliah|SKS|
+|-|-|-|-|
+|1|K-001|Pemrograman Web|3|
+|2|K-002|Arsitektur Data |2|
+|3|K-003|Komputasi Bergerak|4|
+|4|K-004|Basis Data|3|
 ---
 **Tabel Prodi**
-|Program Studi | Jurusan |
-|-|-|
-|Teknik Komputer | Sistem Komputer|
-|Teknik Informatika | Teknik Informatika|
-| Komputerisasi Akuntansi | Sistem Informasi|
+|id|Program Studi | Jurusan |
+|-|-|-|
+|1|Teknik Komputer | Sistem Komputer|
+|2|Teknik Informatika | Teknik Informatika|
+|3| Komputerisasi Akuntansi | Sistem Informasi|
 
 ---
 **Tabel Nilai (Tabel Mahasiswa - Mata Kuliah)**
-|Nim|Kode Matkul|Nilai|
+|Mahasiswa_id|Matakuliah_id|Nilai|
 |-|-|-|
-|1001|K-001|B|
-|1002|K-002|A|
-|1001|K-003|A|
-|1003|K-004|A|
-|1004|K-001|A|
+|1|1|B|
+|2|2|A|
+|1|3|A|
+|3|4|A|
+|4|1|A|
 
 ---
 
 ## Desain Database
-![Untitled Diagram](https://github.com/user-attachments/assets/acc41ec2-dc8e-4722-9a59-c49737ee0221)
+![aaaaaaa](https://github.com/user-attachments/assets/cd87e034-d0d2-40a0-9221-2de85aba7704)
+
 
 
